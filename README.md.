@@ -1,1 +1,37 @@
+# Project Title
+Predictive Modelling For COVID-19 In Public Health
 
+## Project Overview
+This project involves the following key steps:
+1. **Data Cleaning and Merging**:  
+   - Handle missing values, outliers, and inconsistencies.  
+   - Merge multiple datasets into a unified format.  
+   - The final cleaned datasets are saved in the `data/cleaned/` and `data/merged/` folders.
+
+2. **Exploratory Data Analysis (EDA)**:  
+   - Perform univariate and bivariate analysis to explore the data.  
+   - Visualize data distributions, correlations, and trends using various plotting techniques.
+
+3. **Predictive Modeling**:  
+   - Train machine learning models using the cleaned data.  
+   - Evaluate models' performance with metrics like accuracy, precision, or RMSE.  
+   - The final models are saved in the `models/` folder.
+
+## Folder Structure
+- **data/**: Contains raw, cleaned, and merged datasets.
+- **notebooks/**: Google Colab Notebook for data cleaning, EDA, and modeling.
+- **scripts/**: Python scripts for automation of cleaning, EDA, and modeling.
+- **models/**: Saved machine learning models (e.g., `.pkl` files).
+- **results/**: Visualizations and reports generated during analysis.
+
+## Requirements
+This project requires the following Python libraries:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
+You can install the dependencies with:
+```bash
+pip install -r requirements.txt
